@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9881B6972043A36F00C2D8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881B6962043A36F00C2D8AD /* AppDelegate.swift */; };
+		9881B6992043A37000C2D8AD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881B6982043A37000C2D8AD /* MasterViewController.swift */; };
+		9881B69B2043A37000C2D8AD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881B69A2043A37000C2D8AD /* DetailViewController.swift */; };
+		9881B69E2043A37000C2D8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9881B69C2043A37000C2D8AD /* Main.storyboard */; };
+		9881B6A02043A37000C2D8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9881B69F2043A37000C2D8AD /* Assets.xcassets */; };
+		9881B6A32043A37000C2D8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9881B6A12043A37000C2D8AD /* LaunchScreen.storyboard */; };
+		9881B6AE2043A37000C2D8AD /* ToyAppCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881B6AD2043A37000C2D8AD /* ToyAppCenterTests.swift */; };
+		9881B6B92043A37000C2D8AD /* ToyAppCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881B6B82043A37000C2D8AD /* ToyAppCenterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9881B6AA2043A37000C2D8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9881B68B2043A36F00C2D8AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9881B6922043A36F00C2D8AD;
+			remoteInfo = ToyAppCenter;
+		};
+		9881B6B52043A37000C2D8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9881B68B2043A36F00C2D8AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9881B6922043A36F00C2D8AD;
+			remoteInfo = ToyAppCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9881B6932043A36F00C2D8AD /* ToyAppCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyAppCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9881B6962043A36F00C2D8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9881B6982043A37000C2D8AD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9881B69A2043A37000C2D8AD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9881B69D2043A37000C2D8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9881B69F2043A37000C2D8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9881B6A22043A37000C2D8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9881B6A42043A37000C2D8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9881B6A92043A37000C2D8AD /* ToyAppCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyAppCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9881B6AD2043A37000C2D8AD /* ToyAppCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyAppCenterTests.swift; sourceTree = "<group>"; };
+		9881B6AF2043A37000C2D8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9881B6B42043A37000C2D8AD /* ToyAppCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyAppCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9881B6B82043A37000C2D8AD /* ToyAppCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyAppCenterUITests.swift; sourceTree = "<group>"; };
+		9881B6BA2043A37000C2D8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9881B6902043A36F00C2D8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9881B6A62043A37000C2D8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9881B6B12043A37000C2D8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9881B68A2043A36F00C2D8AD = {
+			isa = PBXGroup;
+			children = (
+				9881B6952043A36F00C2D8AD /* ToyAppCenter */,
+				9881B6AC2043A37000C2D8AD /* ToyAppCenterTests */,
+				9881B6B72043A37000C2D8AD /* ToyAppCenterUITests */,
+				9881B6942043A36F00C2D8AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9881B6942043A36F00C2D8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9881B6932043A36F00C2D8AD /* ToyAppCenter.app */,
+				9881B6A92043A37000C2D8AD /* ToyAppCenterTests.xctest */,
+				9881B6B42043A37000C2D8AD /* ToyAppCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9881B6952043A36F00C2D8AD /* ToyAppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9881B6962043A36F00C2D8AD /* AppDelegate.swift */,
+				9881B6982043A37000C2D8AD /* MasterViewController.swift */,
+				9881B69A2043A37000C2D8AD /* DetailViewController.swift */,
+				9881B69C2043A37000C2D8AD /* Main.storyboard */,
+				9881B69F2043A37000C2D8AD /* Assets.xcassets */,
+				9881B6A12043A37000C2D8AD /* LaunchScreen.storyboard */,
+				9881B6A42043A37000C2D8AD /* Info.plist */,
+			);
+			path = ToyAppCenter;
+			sourceTree = "<group>";
+		};
+		9881B6AC2043A37000C2D8AD /* ToyAppCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9881B6AD2043A37000C2D8AD /* ToyAppCenterTests.swift */,
+				9881B6AF2043A37000C2D8AD /* Info.plist */,
+			);
+			path = ToyAppCenterTests;
+			sourceTree = "<group>";
+		};
+		9881B6B72043A37000C2D8AD /* ToyAppCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9881B6B82043A37000C2D8AD /* ToyAppCenterUITests.swift */,
+				9881B6BA2043A37000C2D8AD /* Info.plist */,
+			);
+			path = ToyAppCenterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9881B6922043A36F00C2D8AD /* ToyAppCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9881B6BD2043A37000C2D8AD /* Build configuration list for PBXNativeTarget "ToyAppCenter" */;
+			buildPhases = (
+				9881B68F2043A36F00C2D8AD /* Sources */,
+				9881B6902043A36F00C2D8AD /* Frameworks */,
+				9881B6912043A36F00C2D8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyAppCenter;
+			productName = ToyAppCenter;
+			productReference = 9881B6932043A36F00C2D8AD /* ToyAppCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9881B6A82043A37000C2D8AD /* ToyAppCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9881B6C02043A37000C2D8AD /* Build configuration list for PBXNativeTarget "ToyAppCenterTests" */;
+			buildPhases = (
+				9881B6A52043A37000C2D8AD /* Sources */,
+				9881B6A62043A37000C2D8AD /* Frameworks */,
+				9881B6A72043A37000C2D8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9881B6AB2043A37000C2D8AD /* PBXTargetDependency */,
+			);
+			name = ToyAppCenterTests;
+			productName = ToyAppCenterTests;
+			productReference = 9881B6A92043A37000C2D8AD /* ToyAppCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9881B6B32043A37000C2D8AD /* ToyAppCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9881B6C32043A37000C2D8AD /* Build configuration list for PBXNativeTarget "ToyAppCenterUITests" */;
+			buildPhases = (
+				9881B6B02043A37000C2D8AD /* Sources */,
+				9881B6B12043A37000C2D8AD /* Frameworks */,
+				9881B6B22043A37000C2D8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9881B6B62043A37000C2D8AD /* PBXTargetDependency */,
+			);
+			name = ToyAppCenterUITests;
+			productName = ToyAppCenterUITests;
+			productReference = 9881B6B42043A37000C2D8AD /* ToyAppCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9881B68B2043A36F00C2D8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Faiz Mokhtar";
+				TargetAttributes = {
+					9881B6922043A36F00C2D8AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9881B6A82043A37000C2D8AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9881B6922043A36F00C2D8AD;
+					};
+					9881B6B32043A37000C2D8AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9881B6922043A36F00C2D8AD;
+					};
+				};
+			};
+			buildConfigurationList = 9881B68E2043A36F00C2D8AD /* Build configuration list for PBXProject "ToyAppCenter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9881B68A2043A36F00C2D8AD;
+			productRefGroup = 9881B6942043A36F00C2D8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9881B6922043A36F00C2D8AD /* ToyAppCenter */,
+				9881B6A82043A37000C2D8AD /* ToyAppCenterTests */,
+				9881B6B32043A37000C2D8AD /* ToyAppCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9881B6912043A36F00C2D8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9881B6A32043A37000C2D8AD /* LaunchScreen.storyboard in Resources */,
+				9881B6A02043A37000C2D8AD /* Assets.xcassets in Resources */,
+				9881B69E2043A37000C2D8AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9881B6A72043A37000C2D8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9881B6B22043A37000C2D8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9881B68F2043A36F00C2D8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9881B69B2043A37000C2D8AD /* DetailViewController.swift in Sources */,
+				9881B6992043A37000C2D8AD /* MasterViewController.swift in Sources */,
+				9881B6972043A36F00C2D8AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9881B6A52043A37000C2D8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9881B6AE2043A37000C2D8AD /* ToyAppCenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9881B6B02043A37000C2D8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9881B6B92043A37000C2D8AD /* ToyAppCenterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9881B6AB2043A37000C2D8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9881B6922043A36F00C2D8AD /* ToyAppCenter */;
+			targetProxy = 9881B6AA2043A37000C2D8AD /* PBXContainerItemProxy */;
+		};
+		9881B6B62043A37000C2D8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9881B6922043A36F00C2D8AD /* ToyAppCenter */;
+			targetProxy = 9881B6B52043A37000C2D8AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9881B69C2043A37000C2D8AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9881B69D2043A37000C2D8AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9881B6A12043A37000C2D8AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9881B6A22043A37000C2D8AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9881B6BB2043A37000C2D8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9881B6BC2043A37000C2D8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9881B6BE2043A37000C2D8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = ToyAppCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizmokhtar.ToyAppCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9881B6BF2043A37000C2D8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = ToyAppCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizmokhtar.ToyAppCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9881B6C12043A37000C2D8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = ToyAppCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizmokhtar.ToyAppCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyAppCenter.app/ToyAppCenter";
+			};
+			name = Debug;
+		};
+		9881B6C22043A37000C2D8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = ToyAppCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizmokhtar.ToyAppCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyAppCenter.app/ToyAppCenter";
+			};
+			name = Release;
+		};
+		9881B6C42043A37000C2D8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = ToyAppCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizmokhtar.ToyAppCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToyAppCenter;
+			};
+			name = Debug;
+		};
+		9881B6C52043A37000C2D8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				INFOPLIST_FILE = ToyAppCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizmokhtar.ToyAppCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToyAppCenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9881B68E2043A36F00C2D8AD /* Build configuration list for PBXProject "ToyAppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9881B6BB2043A37000C2D8AD /* Debug */,
+				9881B6BC2043A37000C2D8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9881B6BD2043A37000C2D8AD /* Build configuration list for PBXNativeTarget "ToyAppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9881B6BE2043A37000C2D8AD /* Debug */,
+				9881B6BF2043A37000C2D8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9881B6C02043A37000C2D8AD /* Build configuration list for PBXNativeTarget "ToyAppCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9881B6C12043A37000C2D8AD /* Debug */,
+				9881B6C22043A37000C2D8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9881B6C32043A37000C2D8AD /* Build configuration list for PBXNativeTarget "ToyAppCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9881B6C42043A37000C2D8AD /* Debug */,
+				9881B6C52043A37000C2D8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9881B68B2043A36F00C2D8AD /* Project object */;
+}
