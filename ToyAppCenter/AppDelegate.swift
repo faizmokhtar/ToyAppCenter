@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
@@ -20,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
     navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
     splitViewController.delegate = self
+
+    startAppCenter()
+
     return true
   }
 
@@ -56,6 +62,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
       }
       return false
   }
+}
 
+extension AppDelegate {
+  func startAppCenter() {
+    MSAppCenter.start("0bfbfe30-1355-4f47-b0ae-8b2f3bf6f2e6", withServices:[ MSAnalytics.self, MSCrashes.self ])
+  }
 }
 

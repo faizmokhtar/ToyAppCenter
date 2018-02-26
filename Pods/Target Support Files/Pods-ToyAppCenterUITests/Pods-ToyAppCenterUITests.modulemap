@@ -1,0 +1,6 @@
+framework module Pods_ToyAppCenterUITests {
+  umbrella header "Pods-ToyAppCenterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
